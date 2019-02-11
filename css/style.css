@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "CosmicLove";
+    src: url('../assets/fonts/CosmicLove/CosmicLove.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    position: relative;
+    text-decoration: none;
+}
+body {
+   background-color:#2B2B2B;
+}
+header {
+    height: 50px;
+    background:#202020;
+    width: 100%;
+    position: fixed;
+}
+.header-logo {
+    position: relative;
+    top: 4px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 15%;
+    padding: 10px 0 10px 0;
+    font-family: CosmicLove;
+    color: white;
+}
+nav {
+    position: relative;
+    top: 18px;
+    margin-left: 70%;
+}
+nav a {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+nav a:hover {
+    color: #ed5400;
+}
+.welcome-section {
+height: 100vh;
+}
+.welcome-section-elements {
+    background:#2B2B2B;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 200px 0 410px 0;
+}
+.welcome-section-elements h1 {
+    font-family: CosmicLove;
+    font-size: 50px;
+}
+.welcome-section-elements p {
+    font-family: 'Acme', sans-serif;
+    font-size: 23px;
+    margin-top: 35px;
+}
+.start-game-button {
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 7px 7px;
+    font-size: 30px;
+    background: #ed5400;
+    outline: none;
+    border:none;
+    color: #332524; 
+    cursor: pointer;    
+}
+.screenshots-section {
+    height: 50vh;
+    background: #5c5c5c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.screenshots-section a {
+    position: relative;
+    top:0;
+}
+
+.img-button-next {
+    font-family: 'Acme', sans-serif;
+    border-radius: 20px;
+    padding: 7px 7px;
+    margin: 10px;
+    font-size: 20px;
+    background: #ed5400;
+    outline: none;
+    border:none;
+    color: #332524; 
+    cursor: pointer;
+}
+.img-button-previous {
+    font-family: 'Acme', sans-serif;
+    border-radius: 20px;
+    padding: 7px 7px;
+    margin: 10px;
+    font-size: 20px;
+    background: #ed5400;
+    outline: none;
+    border:none;
+    color: #332524; 
+    cursor: pointer;
+}
+.contact-section {
+    color: rgb(255, 255, 255);
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.photo-developer {
+    border-radius: 50%;
+    border: 3px solid #ed5400;
+    margin-bottom: 20px;
+}
+.developer-information p{
+    text-align: center;
+}
+.feedback-section{
+    height: 50vh;
+    background: #5c5c5c
+}
+.feedback-section p {
+    display: inline;
+}
+
+
+
